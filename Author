@@ -1,0 +1,19 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "<CELÉ JMÉNO AUTORA>",
+      "jobTitle": "<TITLE AUTORA V DANÉ ZEMI, POKUD MÁME JINAK SKIPUJEME>",
+      "description": "<POPIS AUTORA V DANÉ ZEMI, POKUD MÁME JINAK SKIPUJEM>",
+      "image": "<URL - IMAGE AUTORA>",
+      "url": "<URL NA PROFIL AUTORA NA  MODIO V DANÉ ZEMI>",
+	    "sameAs": [    //POKUD NENÍ NI JEDNA URL SOCEK VYPLNĚNA, TAK SKIPUJEME CELÉ SameAs
+             "<URL FACEBOOK, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
+             "<URL INSTAGRAM, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
+             "<URL PINTEREST, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>"],
+    "worksFor": {
+    "@type": "Organization",
+    "legalName": "Modio.cz",
+    }
+  }
+    </script>
