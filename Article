@@ -1,0 +1,29 @@
+
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "<H1 ČLÁNKU>",
+      "image": "<URL NÁHLEDOVÉHO OBRÁZKU ČLÁNKU>",
+      "datePublished": "<DATUM PUBLIKACE>",         //VE FORMÁTU: ISO 8601 (příklad: 2022-08-16T09:16:20+00:00)
+      "author": {       //POKUD JE AUTOR PŘIŘAZEN KE ČLÁNKU, JINAK SKIPUJEME
+          "@type": "Person",
+          "name": "<CELÉ JMÉNO AUTORA>",
+          "url": "<URL NA PROFIL AUTORA NA MODIO V DANÉ ZEMI>",
+          "jobTitle": "<POKUD MÁME POZICI AUTORA VLOŽÍME JINAK SKIPUJEME>",
+          "description": "<POKUD MÁME POPIS AUTORA VLOŽÍME JINAK SKIPUJEME>",
+          "image": "<URL - IMAGE AUOTRA>",
+          "sameAs": [     //POKUD MÁME VYPLNĚNY SOCKY U AUTORŮ TAK PŘIDÁME JINAK SKIPUJEME CELÉ SameAs
+             "<URL FACEBOOK, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
+             "<URL INSTAGRAM, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
+             "<URL PINTEREST, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>"
+             ],
+           "worksFor": {
+                "@type": "Organization",
+                "legalName": "Modio.cz"
+           }
+           },
+     "publisher": {
+    	"@type": "Organization",
+    	"name": "Modio.cz",
+     }
+     }
