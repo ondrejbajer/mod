@@ -1,0 +1,26 @@
+[
+  {
+  "@context":"http:\/\/schema.org",
+    "@type":"Organization",
+    "name":"Modio.cz",
+    "url":"https:\/\/modio.cz",
+    "logo":"ODKAZ NA LOGO"
+  },
+  {
+    "@context":"http:\/\/schema.org",
+    "@type":"WebSite",
+    "name":"Modio.cz",
+    "url":"https:\/\/modio.cz",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https:\/\/www.modio.cz\/?f={search_term_string}",
+      "query-input":"required name=search_term_string"
+  },
+    "sameAs":[
+      "FACEBOOK URL",
+      "INSTAGRAM URL",
+      "YOUTUBE URL",
+      "PŘÍPADNĚ DALŠÍ SOCIÁLNÍ SÍTĚ..."
+    ]
+  }
+]
