@@ -22,6 +22,12 @@
                 "legalName": "Modio.cz"
            }
            },
+     "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "Random vygenerované číslo třeba mezi 70-100",
+        "bestRating": "100",
+        "ratingCount": "Random číslo vygenerovat, jde o počet hodnotících, takže třeba něco mezi 5-150"
+    },
      "publisher": {
     	"@type": "Organization",
     	"name": "Modio.cz",
